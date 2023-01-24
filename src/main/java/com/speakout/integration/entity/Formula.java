@@ -8,10 +8,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@Entity(name = "Person")
-@Table(name = "person")
+@Entity(name = "Formula")
+@Table(name = "formula")
 @Data
-public class Person {
+public class Formula {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
