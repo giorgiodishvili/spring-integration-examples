@@ -1,7 +1,7 @@
-package com.speakout.integration.handler;
+package com.person.integration.handler;
 
-import com.speakout.integration.entity.SpeakOut;
-import com.speakout.integration.repo.SpeakOutRepo;
+import com.person.integration.entity.Person;
+import com.person.integration.repo.PersonRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageHandler;
@@ -14,10 +14,10 @@ import java.util.List;
 public class FormulaMessageHandler implements MessageHandler {
 
     @Autowired
-    private SpeakOutRepo speakOutRepo;
+    private PersonRepo personRepo;
 
     @Override
     public void handleMessage(Message<?> message) throws MessagingException {
-        speakOutRepo.saveAll((List<SpeakOut>) message.getPayload());
+        personRepo.saveAll((List<Person>) message.getPayload());
     }
 }

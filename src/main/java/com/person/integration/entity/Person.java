@@ -1,4 +1,4 @@
-package com.speakout.integration.entity;
+package com.person.integration.entity;
 
 import jakarta.persistence.Basic;
 import jakarta.persistence.Entity;
@@ -25,7 +25,7 @@ import lombok.Data;
         }
 )
 @Data
-public class SpeakOut {
+public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

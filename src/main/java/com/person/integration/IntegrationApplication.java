@@ -1,7 +1,7 @@
-package com.speakout.integration;
+package com.person.integration;
 
-import com.speakout.integration.entity.Formula;
-import com.speakout.integration.repo.FormulaRepo;
+import com.person.integration.entity.Formula;
+import com.person.integration.repo.FormulaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;

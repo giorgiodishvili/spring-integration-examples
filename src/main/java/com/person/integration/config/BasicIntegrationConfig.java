@@ -1,8 +1,8 @@
-package com.speakout.integration.config;
+package com.person.integration.config;
 
-import com.speakout.integration.channel.ChannelAdapters;
-import com.speakout.integration.handler.FormulaMessageHandler;
-import com.speakout.integration.transformer.FormulaToSpeakOutTransformer;
+import com.person.integration.channel.ChannelAdapters;
+import com.person.integration.handler.FormulaMessageHandler;
+import com.person.integration.transformer.FormulaToSpeakOutTransformer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

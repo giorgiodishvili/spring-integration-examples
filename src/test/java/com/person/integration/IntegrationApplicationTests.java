@@ -1,4 +1,4 @@
-package com.speakout.integration;
+package com.person.integration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

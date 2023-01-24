@@ -1,4 +1,4 @@
-package com.speakout.integration.entity;
+package com.person.integration.entity;
 
 import jakarta.persistence.Basic;
 import jakarta.persistence.Entity;
